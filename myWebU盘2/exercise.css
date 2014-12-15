@@ -1,0 +1,91 @@
+/*下面是register.html中的id*/
+#form_top_Content
+{
+  height:80px;
+}
+.formGroup
+{
+  width:1170px;
+  height:86px;
+                     /*表单设置 */
+
+  margin-bottom:50px;
+  border-radius:5px;
+  background-image:url(images/userRegister_07.png);
+  background-position:left  center;
+  background-repeat:no-repeat;
+}
+#inputForm
+{
+  width:1170px;
+  height:86px;
+  border:0px;
+  
+}
+#photoDiv{
+   
+   float:left;
+   margin-top:12px;
+   margin-left:12px;
+   width:61px;
+   height:61px;
+
+ 
+}
+#photoDivEmail{                               /*表单的图片样式*/
+   float:left;
+   margin-top:20px;
+   margin-left:20px;
+   width:61px;
+   height:61px;
+
+}
+#photoDivNickname{
+  float:left;
+   margin-top:20px;
+   margin-left:20px;
+   width:61px;
+   height:61px;
+
+
+}
+#photo
+{
+   vertical-align:center;
+}
+#inputFormDiv
+{
+  width:709px;
+  height:86px;
+  border:0px;
+  
+}
+
+#registerDiv{
+   
+   width:100px;
+   height:43px; 
+   margin:0 auto;                                /*让注册按钮居中显示*/ 
+}
+
+ /*#registerButton{
+  border:0px;
+  width:100px;
+  height:43px;
+  background-color:#FFFFFF;
+
+}
+*/
+
+@media  screen and (max-width:767px)              /*对div做响应式设计*/
+{
+  #radioButton{
+    width:auto;
+  }
+}
+@media (min-width: 768px){
+  #radioButton{
+    width:auto;
+  
+  }
+}
