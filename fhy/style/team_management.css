@@ -1,0 +1,39 @@
+* {margin:0; padding:0; border:0;}
+#banner_background {
+	position: relative; 
+	background-image:url(../images/login_02.png); 
+	width: auto; 
+	height: 42; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+}
+body{ 
+	font-family:"SimSun";
+}
+a{
+	text-decoration: none;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	top:11px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_text{ 
+	position: relative;
+	float: left;
+	margin: 0px 11px;
+	font-size: 12px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right{
+	position: relative;
+	float: right;
+	margin: 0px 5px;
+	font-size: 12px;
+}
