@@ -12,8 +12,8 @@ body{
 
 #frame{                                    /*对frame框架进行修改*/
     width:100%;
-	height:52px;
-	border:0px;
+	  height:42px;
+	  border:0px;
 }
 #img_responsive{
 
