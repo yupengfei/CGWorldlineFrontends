@@ -1,64 +1,59 @@
 
-body{
+body
+{
 
- background-color:#F0F8FF;                 /*background-color:#DCDCDC;*/
+  background-color:#F0F8FF;                 /*background-color:#DCDCDC;*/
  
 }
 .blackFont{                                /*把span里的文字设置成黑色的*/
-
   color:#000000;
 }
-
-
 #frame{                                    /*对frame框架进行修改*/
-    width:100%;
-	  height:42px;
-	  border:0px;
+  width:100%;
+  height:42px;
+	border:0px;
 }
 #img_responsive{
 
   margin-right: 10px;
   display:block;
   max-width:100%;                         /*height*/
-  
-
 }
 
 
-/*下面是group.html的id */
 
-#navBackground{  
 
-background-image:url(../images/login_02.png);
 
-background-size:100% 100%;                /**导航背景图片*/
 
+
+/*下面是group.html的css */
+
+#navBackground
+{  
+  background-image:url(../images/login_02.png);
+
+  background-size:100% 100%;                  /**导航背景图片*/
 }
-#content1{
+#content1
+{
 	height:100px;
 }
-#content2{
-   height:100px;
-
+#content2
+{
+  height:100px;
 }
 #content3{
-    height:40px;
+  height:40px;
    
 }
 #content4{
 	height:50px;
 }
-
-
 #buttonCenter{
- text-align: center;
- 
-
+  text-align: center;
 }
 div{
-border:1px solid transparent；
-
-
+  border:1px solid transparent；
 }
 #buttonSure{
    margin-right:50px;
@@ -68,39 +63,38 @@ border:1px solid transparent；
 #buttonCanel{
    width:100px;
    height:43px;
-
 }
-
-span{
-color:#FFFFFF;
+span
+{
+  color:#FFFFFF;
 }
 #radioButton{
 	width:1170px;
 	height:86px;
-    background-color:#ffffff;
-    text-align:center;
-    padding-top:43px; 
-
+  background-color:#ffffff;
+  text-align:center;
+  padding-top:43px; 
+  border:0px;
 }
 #textButton1{
-  
-   border:0px;                                 /* width:1170px;height:86px;*/
-   width:1170px;
-   heigth:66px;
-
- 
-  
+  border:0px;                                 /* width:1170px;height:86px;*/
+  width:1170px;
+  height:66px;  
 }
 #textButton2{
   
-    border:0px;
-    height:327px;
-    width:1170px;
+  border:0px;
+  height:327px;
+  width:1170px;
 }
 
 
 
-/*下面是register.html中的id*/
+
+
+
+
+/*下面是register.html中的css*/
 #form_top_Content
 {
   height:80px;
@@ -114,15 +108,13 @@ color:#FFFFFF;
   margin-bottom:40px;
   border-radius:5px;
 }
-#photoDiv{
-   
-   float:left;
-   margin-top:12px;
-   margin-left:12px;
-   width:61px;
-   height:61px;
-
- 
+#photoDiv
+{
+  float:left;
+  margin-top:12px;
+  margin-left:12px;
+  width:61px;
+  height:61px;
 }
 #photoDivEmail{                               /*表单的图片样式*/
    float:left;
@@ -130,16 +122,13 @@ color:#FFFFFF;
    margin-left:20px;
    width:61px;
    height:61px;
-
 }
 #photoDivNickname{
-  float:left;
+   float:left;
    margin-top:20px;
    margin-left:20px;
    width:61px;
    height:61px;
-
-
 }
 #photo
 {
@@ -149,32 +138,19 @@ color:#FFFFFF;
 {
   width:709px;
   height:86px;
-  border:0px;
-  
+  border:0px;  
 }
 #inputForm
 {
   width:1101px;
   height:85px;
-  border:0px;
-  
+  border:0px; 
 }
 #registerDiv{
-   
-   width:100px;
-   height:43px; 
-   margin:0 auto;                                /*让注册按钮居中显示*/ 
-}
-
- /*#registerButton{
-  border:0px;
   width:100px;
-  height:43px;
-  background-color:#FFFFFF;
-
+  height:43px; 
+  margin:0 auto;                                 /*让注册按钮居中显示*/ 
 }
-*/
-
 @media  screen and (max-width:767px)              /*对div做响应式设计*/
 {
   #radioButton{
@@ -189,60 +165,55 @@ color:#FFFFFF;
 }
 
 
+
+
+
+
+
+
 /* 下面是个人主页myhomePage.html的css*/
 
-#userName{
-
+#userName
+{
   height:24px;width:50px;
-
-  }
-#userPassword{
-height:24px;width:53px;
+}
+#userPassword
+{
+  height:24px;width:53px;
 
 }
 #loginButton{
- background-image:url(../images/login_02.png);
- 
+  background-image:url(../images/login_02.png);
   border:0px;
 }
 #registerButton{
- background-image:url(../images/login_02.png);   /*background-color:transparent； 把按钮内景设置为透明色*/
-
-
-
+ background-image:url(../images/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
  border:0px;
 }
 
 #moreThanContent{
-
-   margin:0 auto;
+  margin:0 auto;
 }
 #moreThanButton{
- 
   margin:0 auto;
 }
 #Hr{
- 
   margin-bottom:30px;
   border-top:1px dotted #000000;
   height:1px;
 }
 #Footer{
-
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 20px;                             /*脚部的高度*//*clear:both;/*margin-right:100px;*/
-
 }
 #Footer ul{
- 
   list-style-type:none;
   float:left;
 }
 #footer{
  color:#000000;
-
 }
 #Footer ul li{
   display: inline-block;
@@ -259,21 +230,21 @@ height:24px;width:53px;
   position:absolute;
   top:55px;
   right:200px;                            /*的继续改进，改成响应式*/
-
 }
 
 
- /*login.html页面的样式*/
- 
- 
+
+
+
+
+
+ /*login.html页面的css*/
 #table1{                                 /*表格样式的设置*/
   margin-bottom:40px;
-  text-align:center;
-
-  
+  text-align:center; 
 }
 #tableImg{
- margin-right:40px;
+  margin-right:40px;
 }
 
 .loginContent{                                  /*对层的设置*/
@@ -315,9 +286,14 @@ height:24px;width:53px;
   width:1000px;
 }
 
-/* 下面是对newPost.html的设置*/
 
 
+
+
+
+
+
+/* 下面是对newPost.html的css*/
  #newPostTitle{
 
  text-align:left;
@@ -329,7 +305,6 @@ height:24px;width:53px;
 #newPostContent{
    width:1140px;
    height:445px;
-   
    background-color:#ffffff;
   /*margin:0 auto;*/
 }
@@ -340,32 +315,24 @@ height:24px;width:53px;
   border-top:0.5px solid #A9A9A9;
   border-left:0.5px solid #A9A9A9;
   border-right:1px solid #A9A9A9;
-   /*border-radius: 10px; */
-   border-top-left-radius:5px;   
-   border-top-right-radius:5px; 
-   font-size:20px; 
-   font-weight:normal;  
-   vertical-align:center;                          /*把div的四个角都设置成圆角*/
+  border-top-left-radius:5px;   
+  border-top-right-radius:5px; 
+  font-size:20px; 
+  font-weight:normal;  
+  vertical-align:center;                          /*把div的四个角都设置成圆角*/
 }
 #postContent{
-  /*float:left;*/
   clear:left;
   height:398px;
 }
 .newPostBlankContent{
   height:100px;
-
 }
 #buttonDiv{
   float:right;
   margin-top:0px;
   padding-top:39px;
 }
-/*.buttonStyle{
-  width:94px;
-  height:41px;
-
-}*/
 #abandonButton{
   width:102px;
   height:50px;
@@ -383,13 +350,16 @@ height:24px;width:53px;
   margin-right:20px;
 }
 
-/* userCancel.html的样式*/
-.titleContent{
 
-  margin-top:80px;
+
+
+
+
+/* userCancel.html的css*/
+.titleContent
+{ margin-top:80px;
   margin-bottom:40px;
   font-size:20px;
- 
 }
 #showContent{
   width:1170px;
@@ -401,7 +371,6 @@ height:24px;width:53px;
   text-algin:center;
 }
 #cancelReasonContent{
-
   width:1170px;
   height:157px;
   border:1px solid #F0F8FF;
@@ -410,11 +379,9 @@ height:24px;width:53px;
   margin:0 auto;
 }
 .userCanelButtonStyle{
-  /*margin:0 auto;*/
   text-align:center;    
   margin-top:50px;             /*把按钮居中的类*/
 }
-
 .userCanelImg1{
   width:60px;
   height:62px;
@@ -424,8 +391,8 @@ height:24px;width:53px;
   margin-top:50px;
   text-align:center;
 }
-.userCanelImg2{
-  width:60px;
+.userCanelImg2
+{ width:60px;
   height:62px;
   float:left;
   margin-left:150px;
@@ -433,73 +400,66 @@ height:24px;width:53px;
   text-align:center;
 }
 .userCancelCheckbox{
-
  color:#000000;
  font-size:15px;
  letter-spacing:3px;
 }
 #cancelReasonSpecialContent{
-
   margin-left:80px;
   margin-top:20px;
-
 }
-/*showPhonePage.html页面的样式*/
+
+
+
+
+
+
+
+/*showPhonePage.html页面的css*/
 .showPhonePage{
   width:826px;
   height:752px;
   margin:0 auto;
-
 }
 .showPhonePageDiv
 {  
-   width:416px;
-   height:752px;
-   clear:left;
-   float:left;
-   border:1px solid  #c0c0c0 ;
+  width:416px;
+  height:752px;
+  clear:left;
+  float:left;
+  border:1px solid  #c0c0c0 ;
 }
 .specialShowPhonePageDiv{
-
-   width:410px;
-   height:752px;
-   float:left;
-  /* border:1px solid  #c0c0c0 ;*/
-   border-right:1px solid  #c0c0c0 ;
-   border-top:1px solid  #c0c0c0;
-   border-bottom:1px solid  #c0c0c0;
+  width:410px;
+  height:752px;
+  float:left;
+  border-right:1px solid  #c0c0c0 ;
+  border-top:1px solid  #c0c0c0;
+  border-bottom:1px solid  #c0c0c0;
 }
 .userNameSort{
   width:300px;
   text-align:center;
   margin-top:20px;
   border-radius:3px;
-
 }
 .nodes{
-
   width:396px;
   height:30px;
   margin:0 auto;
-
 }
 #oginRegisterDiv{
   text-align:center;
   width:300px;
-  
-
 }
 .loginButton{
-  
   margin-top:15px;
   margin-right:60px;
-
 }
 .registerButton{
   color:#ffffff;
   margin-top:15px;
   margin-right:30px;
-
 }
 
 
