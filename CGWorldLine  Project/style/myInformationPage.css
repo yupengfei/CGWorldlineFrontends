@@ -1,0 +1,55 @@
+
+.body{
+	 
+	 background-color:#f6f6f6;
+}
+ .morePageInformationShowDiv
+ {
+ 	width:780px;
+ 	height:156px;
+ 	background-color:#ffffff;
+ 	margin-top:40px;
+
+ }
+ .myInformationPageText
+ {
+ 	width:780px;
+ 	height:150px;
+ 	background-color:#ffffff;
+ }
+ .horizontal-List
+ {
+    width:780px;
+    height:50px;
+    float:left;
+   
+ }
+ #listTitleContent
+ {
+	float:left;
+ }
+ #dateContent
+ {
+    float:right;
+    
+ }
+ .personalInformation
+ {
+
+    margin-bottom:5px;
+
+ }
+ .userHeadImage
+ {
+    float:left;
+    width:99px;
+    height:99px;
+
+ }
+.userInformation
+{ 
+	float:right;
+	width:681px;
+	height:158px;
+
+}

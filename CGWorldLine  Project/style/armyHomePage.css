@@ -1,0 +1,146 @@
+* {margin:0; padding:0; border:0;}
+#banner_background {
+	position: relative; 
+	background-image:url(images/login_02.png); 
+	min-width: 900px;
+	width: auto; 
+	height: 42; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+
+}
+body{ 
+	font-family:"宋体";
+	background-color: #f6f6f6;
+	min-height: 700px;
+}
+a{
+	text-decoration: none;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_left_text{ 
+	float: left;
+	margin: 11px 11px auto 11px;
+	font-size: 12px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right_text{
+	float: right;
+	margin: 11px 5px auto 5px;
+	font-size: 12px;
+}
+#banner_right_pic_settings{
+	float: right;
+	margin: 7px 5px auto 5px;
+}
+#banner_right_pic_email{
+	float: right;
+	margin: 10px 5px auto 5px;
+}
+#banner_right_pic_head{
+	float: right;
+	margin: 2px 5px auto 5px;
+}
+/* 页面内容部分的css*/
+#Body
+{
+  background-color:#f6f6f6;
+  font-family:"宋体";
+  font-size:18px;
+  color:#040404;
+}
+.morePageInformationShowDiv
+ {
+ 	min-width:780px;
+ 	min-height:156px;
+ 	background-color:#ffffff;
+ 	margin-top:40px;
+
+ }
+#userHeadImage{
+   clear:left;
+   float:left;
+   margin-left:17px;
+   margin-top:29px;
+}
+#userInformation{
+	float:left;
+	margin-left:20px;
+	margin-top:24px;
+	/*margin-bottom:24px;*/
+	/*width:667px;*/
+	/*padding-left:10px;*/
+}
+.informationContextName{
+  float:left;
+  clear:right;
+  margin-bottom:30px;
+  
+}
+.informationContextMerit{
+   float:left;
+   clear:left;
+   margin-bottom:30px;
+}
+.informationContextCredit{
+	float:left;
+	clear:left;
+    margin-bottom:20px;
+}
+#militaryResult{
+    min-width:780px;
+	min-height:80px;
+    /*margin-top:40px;*/
+    /*margin-bottom:20px;*/
+    clear:left;
+    float:left;
+    background-color:#f5f6f6;     
+}
+#militaryResultText{
+	min-width:780px;
+	min-height:80px;
+	clear:left;
+	float:left;
+    padding-top:40px;
+    padding-bottom:20px;
+    background-color:#f5f6f6;    
+   /* margin:40px  auto  20px 0px;
+    background-color:#f5f6f6;  */  
+}
+/*.plan{
+    min-width:780px;
+ 	min-height:324px;
+    background-color:#ffffff;
+    margin-top:20px;
+    
+}*/
+.horizontal-List{
+   min-width:780px;
+   min-height:80px;
+   background-color:#ffffff;
+  /* width:auto;
+   height:80px;*/
+   clear:left;
+   float:left;
+   border-top: 1px solid #f5f6f6;
+   border-left:1px solid #f5f6f6;
+   border-right:1px solid #f5f6f6;
+   border-bottom:1px solid #f5f6f6;
+   
+ 
+}
+.divPlan{
+   /*width:780px;*/
+   margin-left:27px;
+   float:left;
+   
+}

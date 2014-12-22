@@ -1,0 +1,78 @@
+#navBackground{  
+	background-image:url(../images/login_02.png);
+
+	background-size:100% 100%;                /**导航背景图片*/
+
+}
+/*页面内容部分的css*/
+.armyHeadImage{
+
+	background-color:#ffffff;
+	min-width:780px;
+    min-height:111px;
+  
+    margin-top:43px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-top:4px;
+    border-radius:5px; /*把div设置成圆角*/
+    border:0.5px solid  #e4e4e4;
+    font-family:"宋体";
+
+    font-size:20px;
+    color:#191919;
+
+
+}
+.armyName{
+    background-color:#ffffff;
+	min-width:780px;
+    min-height:111px;
+    border-radius:5px; /*把div设置成圆角*/
+    border:0.5px solid  #e4e4e4;
+    font-family:"宋体";
+    font-size:20px;
+    color:#191919;
+   
+
+}
+.armyNameText{
+    position:relative;
+    top:36px;
+    left:20px;
+
+
+}
+.armyAdd{
+	padding-left:20px;
+	padding-top:22px;
+    background-color:#ffffff;
+    margin-top:20px;
+    min-width:780px;
+    min-height:89px;
+    border:0.5px solid  #e4e4e4;
+    font-family:"宋体";
+    font-size:20px;
+    color:#191919;
+
+}
+.armyCheckbox{
+	min-width:780px;
+	min-height:89px;
+	padding-left:19px;
+	padding-top:29px;
+	padding-bottom:33px;
+    background-color:#ffffff;
+    margin-top:20px;
+    border:0.5px  solid  #e4e4e4;
+    font-family:"宋体";
+    font-size:20px;
+    color:#191919;
+}
+.checkboxSize{
+	width:29px;
+    height:30px;
+    margin: 0 auto;
+
+
+}
