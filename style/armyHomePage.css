@@ -1,7 +1,8 @@
 * {margin:0; padding:0; border:0;}
-#banner_background {
+#banner_background{
 	position: relative; 
-	background-image:url(images/login_02.png); 
+	/*background-image:url(../images/login_02.png); */
+	background-image:url(../images/login_02.png);
 	min-width: 900px;
 	width: auto; 
 	height: 42; 
@@ -19,7 +20,7 @@ a{
 }
 #banner_box{
 	position: absolute;
-	left: 31px;
+    left: 31px;
 	right: 31px;
 	width: auto;
 	border-style: solid;
@@ -54,9 +55,6 @@ a{
 #Body
 {
   background-color:#f6f6f6;
-  font-family:"宋体";
-  font-size:18px;
-  color:#040404;
 }
 .morePageInformationShowDiv
  {
@@ -76,8 +74,8 @@ a{
 	float:left;
 	margin-left:20px;
 	margin-top:24px;
-	/*margin-bottom:24px;*/
-	/*width:667px;*/
+	margin-bottom:21px;
+	width:667px;
 	/*padding-left:10px;*/
 }
 .informationContextName{
@@ -87,60 +85,9 @@ a{
   
 }
 .informationContextMerit{
-   float:left;
-   clear:left;
+
    margin-bottom:30px;
 }
 .informationContextCredit{
-	float:left;
-	clear:left;
-    margin-bottom:20px;
-}
-#militaryResult{
-    min-width:780px;
-	min-height:80px;
-    /*margin-top:40px;*/
-    /*margin-bottom:20px;*/
-    clear:left;
-    float:left;
-    background-color:#f5f6f6;     
-}
-#militaryResultText{
-	min-width:780px;
-	min-height:80px;
-	clear:left;
-	float:left;
-    padding-top:40px;
-    padding-bottom:20px;
-    background-color:#f5f6f6;    
-   /* margin:40px  auto  20px 0px;
-    background-color:#f5f6f6;  */  
-}
-/*.plan{
-    min-width:780px;
- 	min-height:324px;
-    background-color:#ffffff;
-    margin-top:20px;
-    
-}*/
-.horizontal-List{
-   min-width:780px;
-   min-height:80px;
-   background-color:#ffffff;
-  /* width:auto;
-   height:80px;*/
-   clear:left;
-   float:left;
-   border-top: 1px solid #f5f6f6;
-   border-left:1px solid #f5f6f6;
-   border-right:1px solid #f5f6f6;
-   border-bottom:1px solid #f5f6f6;
-   
- 
-}
-.divPlan{
-   /*width:780px;*/
-   margin-left:27px;
-   float:left;
-   
+   margin-bottom:24px;
 }

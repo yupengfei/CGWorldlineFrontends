@@ -3,7 +3,7 @@
 function User(username,userpassword)
 {
   this.Username=username;
-  this.Userpassword=userpassword;  //有疑问？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+  this.Userpassword=userpassword;  
 
 
 }
@@ -62,8 +62,7 @@ $(document).ready（function(){
 $(document).ready(function(){
 $("#registerButton").click(function() {
 
-  var stringToSend = JSON.stringify(new User(   //????????????????????????????
-  $("#userCancelUserName").val(),
+  var stringToSend = JSON.stringify(new User(  
   $("#userCancelUserPassword").val(),
 
 )
@@ -105,7 +104,7 @@ function resize(){
 $(document).ready(function(){
    
   $("buttonSure").click(function(){
-      var stringTosend=JSON.stringify(new User($("用户的username的ID").val()); // 这个地方获取数值应该改为提交表单的内容！！！！？？同时还有获取已经登陆用户的用户名！
+      var stringTosend=JSON.stringify(new User($("用户的username的ID").val()); // 这个地方获取数值应该改为提交表单的内容！！！！同时还有获取已经登陆用户的用户名！
       alert(stringTosend); 
       $.post("/sure",stringTosend,function(data,status){
       if(status=="success")

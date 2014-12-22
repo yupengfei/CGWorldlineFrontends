@@ -1,8 +1,6 @@
 .body{
 	 
 	 background-color:#f6f6f6;
-	 
-
 }
  .morePageInformationShowDiv
  {
@@ -10,11 +8,6 @@
  	min-height:156px;
  	background-color:#ffffff;
  	margin-top:40px;
-
- }
- span{
-   
-   color:#ffffff;
 
  }
  .myInformationPageText
@@ -39,4 +32,3 @@
     float:right;
     
  }
-
