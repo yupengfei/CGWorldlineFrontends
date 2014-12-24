@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head> 
+<title>用户注销</title>
+<meta charset="utf-8" />
+<!-- <meta  name="viewport" content="width=device-width,initial-scale=1.0"> -->
+<link href="style/mystyleone.css" rel="stylesheet"  type="text/css" />
+<link href="style/bootstrap.css"  rel="stylesheet"/>
+<link href="style/bootstrap-responsive.css"  rel="stylesheet"/>
+<script  src="scripts/CGWorldlineWeb.js"></script>
+</head>
+<body  style="background-color:#F0F8FF">
+    
+    <div class="navbar  navbar-default"    id="navBackground">    
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target=".navbar-responsive-collapse">
+                <span class="sr-only"> Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span  class="icon-bar"></span>
+                <span  class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse  navbar-responsive-collapse">
+            <ul  class="nav navbar-nav">
+             
+                <li>  <a href="untitle.html" ><span>CGWorldline</span></a></li>
+                <li> <a href="untitle.html" ><span>个人主页</span></a></li>
+                <li> <a href="untitle.html" ><span>知识库</span></a></li>
+                <li> <a href="untitle.html" ><span>新闻</span></a></li>
+                <li> <a href="untitle.html" ><span>商店</span></a></li>
+                <li> <a href="untitle.html"><span>需求</span></a></li>
+            </ul>
+            <div  class="navbar-form  navbar-right" >
+                         
+                <div  class="form-group"  />
+                    <label ><span  id="userCancelUserName">用户名</span></label>  
+                    <input type="text"    class="form-control"    id="userName" />
+                   
+                    <label ><span id="userCancelUserPassword">密码</span></label>  
+                    <input type="text"    class="form-control"   id="userPassword" />
+                   
+                    <button type="submit"   id="loginButton"  class="btn"  data-loading-text="正在加载...........!"><span>登录</span></button>
+                    <button type="submit"  id="registerButton" class="btn" ><span>注册</span></button>
+                   
+                </div>
+            </div>
+        </div>
+    
+ 
+    </div>
+
+    <div  class="container">
+        <div  class="titleContent">CGWorldline  还有好多玩的事哦!</div>
+        <div  id="showContent">
+            <div class="userCanelImg1"><img src="images/userCancel_06.png"  /><a  href="＃"><span class="blackFont">知识库</span></a></div>
+            <div  class="userCanelImg2"><img src="images/userCancel_03.png" /><a  href="＃"><span class="blackFont">数据分析</span></a></div> 
+            <div  class="userCanelImg2"><img src="images/userCancel_09.png"  /><a  href="＃"><span class="blackFont">新闻</span></a></div> 
+            <div  class="userCanelImg2"> <img src="images/userCancel_11.png"  /><a  href="＃"><span class="blackFont">需求 </span></a></div>  
+            <div  class="userCanelImg2"> <img src="images/userCancel_13.png" /><a  href="＃"><span class="blackFont">小组</span></a></div>
+
+        </div>
+        <div  class="titleContent"> 注销后您的一切个人资料不在显示，所有发言显示为已注销用户</div>
+        <div id="cancelReasonContent">
+          
+           
+            <div  class="checkbox"   id="cancelReasonSpecialContent">
+    
+                <label> <input  type="checkbox"  name="optionsRadios" value=""/>缺乏有价值的信息</label>
+
+            </div>
+            <div  class="checkbox"   id="cancelReasonSpecialContent">
+    
+                <label> <input  type="checkbox"  name="optionsRadios" value=""/>认识不到新朋友</label>
+
+            </div>
+            <div  class="checkbox"    id="cancelReasonSpecialContent">
+    
+                <label> <input  type="checkbox"  name="optionsRadios" value=""/>其他，请输入原因</label>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="userCanelButtonStyle"> 
+        <button type="button"   class="btn btn-default"  id="abandonButton" >不注销了</button><!--用的是newPost.html中的按钮类-->
+        <button type="button"   class="btn btn-default"  id="abandonButton">注销</button>
+
+    </div>
+</body> 
+</html>
