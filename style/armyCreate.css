@@ -75,9 +75,9 @@
 	padding-left:19px;
 	padding-top:29px;
 	padding-bottom:33px;
-    background-color:#ffffff;
-    margin-top:20px;
-    border:0.5px  solid  #e4e4e4;
+  background-color:#ffffff;
+  margin-top:20px;
+  border:0.5px  solid  #e4e4e4;
    
 }
 #armyCheckboxText{
@@ -99,7 +99,7 @@
 }
 .checkboxSize{
 	width:30px;
-    height:20px; /* 字体的高度如果是20px;要想对齐，checkboxSize的高度也必须是20px，文字和复选框才能对齐*/
+  height:20px; /* 字体的高度如果是20px;要想对齐，checkboxSize的高度也必须是20px，文字和复选框才能对齐*/
 
 
 }
