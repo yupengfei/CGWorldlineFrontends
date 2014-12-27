@@ -1,0 +1,71 @@
+body{
+    background-color:#f6f6f6;
+    min-width:1000px; 
+    font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+    font-size:20px;
+}
+#form_top_Content
+{
+  height:80px;
+}
+#formGroup
+{ 
+  width:78%;
+  min-width:780px;
+  min-height:82px;
+  background-color:#ffffff;                      /*表单设置 */
+  border:0px;
+  margin-bottom:40px;
+  border-radius:5px;
+}
+#photoDiv
+{
+  float:left;
+  margin-top:12px;
+  margin-left:12px;
+  /*width:61px;
+  height:61px;*/
+  width:7.8205128205%;
+  min-height:61px;
+}
+#inputFormDiv
+{ width:90.89743589%; 
+  min-width:709px;
+  min-height:86px;
+  border:0px;  
+}
+#photoDivEmail{                               /*表单的图片样式*/
+   float:left;
+   margin-top:20px;
+   margin-left:20px;
+   width:7.8205128205%;
+   min-height:61px;
+}
+#photoDivNickname{
+   float:left;
+   margin-top:20px;
+   margin-left:20px;
+   width:7.8205128205%;
+   min-height:61px;
+}
+
+
+#inputForm
+{
+ /* min-width:1101px;
+  min-height:85px;
+  border:0px; */
+  width:90.89743589%; 
+  min-width:709px;
+  min-height:86px;
+  border:0px;  
+
+}
+#registerDiv{
+  width:12.8205128%;
+  min-width:100px;
+  min-height:43px; 
+  margin:0 auto;                                 /*让注册按钮居中显示*/ 
+}
+@media  screen and (max-width:767px)              /*对div做响应式设计*/
+{
