@@ -1,0 +1,161 @@
+
+body{
+    background-color:#f6f6f6;
+    min-width:1000px; 
+    font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+    font-size:20px;
+}
+a{
+   text-decoration:none;
+  /*color:#a5d6b8;*/
+   color:#01b37a;
+   font-size:16px;
+}
+ #morePageInformationShowDiv
+ {
+ 	width:78%;       
+ 	min-height:210px;
+ 	background-color:#ffffff;
+ 	margin-top:40px;
+    border-bottom:1px solid #e4e4e4;
+    min-width:780px;
+    margin: 0px auto;
+}
+#userHeadImage{
+    clear:left;
+    float:left;
+    margin-left:17px;
+    margin-top:29px;
+}
+#userInformation{
+    height:154px;
+    float:left;
+    margin-left:20px;   
+}
+.informationContextName{
+    clear:left;
+    float:left;
+    margin-bottom:20px;
+    margin-top:20px; 
+}
+.informationContextEmail{
+    float:left;
+    clear:left;
+    margin-bottom:20px;
+}
+.informationContextIsorNotDiv{
+    float:left;
+    clear:left;
+    height:25px;
+   
+}
+#checkboxStyleDiv{
+    
+    height:25px;
+    clear:left;
+    float:left;
+    line-height:25px;
+   
+}
+#checkboxStyle{
+    width:25px;
+    height:25px; 
+   
+}
+#checkboxTextDiv{
+   
+    height:25px;
+    float:left;
+    margin-left:10px;
+    line-height:25px;
+
+}
+#issuedList{
+    min-width:780px; 
+    clear:left;
+    float:left;
+    position:relative;
+
+
+}
+.postList{
+    clear:left;
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    /*position:relative;
+    left:21px;
+    bottom:10px;*/
+}
+
+.moreThan{
+    float:left;
+    margin-left:17px;
+    margin-top:10px;
+}
+
+.myInformationPageText
+{   width:78%;
+ 	min-width:780px;
+ 	min-height:170px;
+ 	background-color:#ffffff;
+    border-top:1px   solid #e4e4e4;
+    border-bottom:1px  solid #e4e4e4;
+    margin:0px auto;
+   
+}
+.horizontal-List
+{  
+    width:94.358974358974%;
+    /*min-width:736px;*/
+    min-height:50px; 
+    position:relative;
+    top:0px;
+    left:2.820512820513%;
+    border-bottom:1px solid #e4e4e4;    
+ }
+ #listTitleContent
+ {  height:50px;
+	float:left;
+    line-height:50px;
+
+ }
+#dateTimeContent
+ {  height:50px;
+    float:right;
+    line-height:50px; 
+ }
+ #goodsList{
+    width:78%;
+    min-width:780px;
+    min-height:244px;
+    background-color:#ffffff;
+    border-top:1px   solid #e4e4e4;
+    border-bottom:1px  solid #e4e4e4;
+    margin:0px auto;
+   
+
+ }
+ .goodsListImage{
+    clear:left;
+    float:left;
+    margin-left:30px;
+    padding-top:19px;  
+ }
+ .goodsListText{
+    float:left;
+    margin-left:10px;
+    height:95px;
+    line-height:95px;
+
+ }
+
+
+
+
+
+
+
+
+
+

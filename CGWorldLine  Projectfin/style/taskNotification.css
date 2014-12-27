@@ -1,0 +1,55 @@
+body
+{
+	background-color:#f6f6f6;
+    min-width:1000px; 
+
+
+}
+#taskNotificationFontCenterStyle{
+
+	font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+    font-size:20px;
+    margin:0 auto;
+}
+#navBackground
+{  
+    background-image:url(../images/login_02.png);
+    background-size:100% 100%;                  /**导航背景图片*/
+}
+span{
+    color:#ffffff;
+
+}
+.taskNotificationContent{
+   width:78%;
+   min-width:780px;
+   min-height:432px;
+   background-color:#ffffff;
+   overflow:hidden;
+   position:relative;
+
+}
+.taskNotificationRigthContent{
+   position:absolute;
+   top:0px;
+   left:99px;
+}
+.taskNotificationLfetImage{
+    margin:20px 20px auto  20px;  /*25.6410256410%*/
+    clear:left;
+    float:left;
+}
+.taskNotificationRigthContentOne{
+    float:left;
+    margin:42px 74px 19px 0px;
+}
+.taskNotificationRigthContentTwo{
+    clear:left;
+    float:left;
+    
+    margin-bottom:19px;
+}
+#RightContentSuperLink{
+
+	color:#000000;
+}

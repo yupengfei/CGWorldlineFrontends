@@ -1,0 +1,154 @@
+body
+{
+	background-color:#f6f6f6;
+    min-width:1000px;
+}
+#navBackground
+{  
+    background-image:url(../images/login_02.png);
+    background-size:100% 100%;                  /**导航背景图片*/
+}
+span{
+    color:#ffffff;
+
+}
+#goodsIssueFontCenterStyle{
+
+	font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+    font-size:20px;
+    margin:0 auto;
+}
+.goodsIssueLeftContentDiv{
+    width:22%;
+    min-width:220px;
+    min-height:269px;
+    clear:left;
+    float:left;
+    margin-left:112px;
+    margin-top:36px;
+}
+#goodsIssueImage{
+    min-width:220px;
+    min-height:269px;
+
+}
+.goodsIssueRightContentDiv{	
+    float:left;
+   
+    width:55.5%;
+    min-width:555px;
+    min-height:277px;
+    margin-left:29px;
+    margin-top:36px;
+}
+.goodsIssueRightContentDivOne{
+    
+    clear:left;
+    float:left;
+    background-color:#ffffff;
+    width:100%;
+    height:80px;
+    border:1px solid #e4e4e4;
+}
+.goodsIssueRightContentImageDiv{
+    width:61px;
+    height:61px;
+    margin-left:11px;
+    clear:left;
+    float:left;
+    margin-top:7px;
+    
+}
+.goodsIssueRightContentAddDiv{
+	width:61px;
+	height:61px;
+    margin-left:50px;
+    margin-top:7px;
+    float:left;
+}
+#goodsImage{
+    width:61px;
+    height:61px;
+}
+/*.goodsIssueRightContentDivTwo{
+    width:279px;
+    height:40px;
+    clear:left;
+    float:left;
+    margin-top:20px;
+    margin-left:29px;
+    
+}*/
+#uploadUrlDiv{
+	clear:left;
+    float:left;
+   
+    height:45px;
+    margin-top:20px;
+   
+}
+#uploadUrl{
+
+    height:45px;
+  
+
+}
+#uploadButtonDiv{
+    float:left;
+    width:65px;
+    height:45px;
+    margin-left:10px;
+	margin-top:20px;
+
+}
+#uploadButton{
+
+    width:65px;
+    height:45px;
+	background-image:url(../images/upLoad.png);
+
+}
+.goodsIssueRightContentDivTwo{
+	clear:left;
+	float:left;
+    width:100%;
+    height:118px;
+    
+    margin-top:20px;
+    
+    background-color:#ffffff;
+}
+#RightContentInput{
+    width:100%;
+    height:118px;
+
+}
+#goodsIssueSureButtonDivStyle{
+	clear:left;
+	float:left;
+    margin-left:454px;
+    margin-top:40px;
+
+}
+#sureButton{
+    width:73px;
+    height:45px;
+    background-color:#ffffff ;
+    border-radius:5px;
+    border:1px solid #e4e4e4;
+}
+#abandonButton{
+    width:73px;
+    height:45px;
+    background-color:#ffffff ;    /*虽然和上一个样式一样，但由于已有class类。所以不得不改成id*/
+    border-radius:5px;
+    border:1px solid #e4e4e4;
+
+}
+#goodsIssueAbandonButtonDivStyle{
+    float:left;
+    margin-left:214px;
+    margin-top:40px;
+}
+
+

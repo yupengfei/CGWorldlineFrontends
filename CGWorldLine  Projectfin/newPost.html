@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head> 
+<title>发布新帖</title>
+<meta charset="utf-8" />
+<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link href="style/bootstrap.css"  rel="stylesheet"/>
+<link href="style/bootstrap-responsive.css"  rel="stylesheet"/>
+<link href="style/mystyleone.css" rel="stylesheet"  type="text/css" />
+</head>
+<body>
+    
+    <div class="navbar  navbar-default" id="navBackground">    
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target=".navbar-responsive-collapse">
+                <span class="sr-only"> Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span  class="icon-bar"></span>
+                <span  class="icon-bar"></span>
+            </button>
+        </div>
+    
+        <div class="collapse navbar-collapse  navbar-responsive-collapse">
+            <ul  class="nav navbar-nav">  
+                <li>  <a href="untitle.html" ><span>CGWorldline</span></a></li>
+                <li> <a href="untitle.html" ><span>个人主页</span></a></li>
+                <li> <a href="untitle.html" ><span>知识库</span></a></li>
+                <li> <a href="untitle.html" ><span>新闻</span></a></li>
+                <li> <a href="untitle.html" ><span>商店</span></a></li>
+                <li> <a href="＃" ><span>需求</span></a></li>
+            </ul>
+            <ul class="list-inline  pull-right ">
+                <li><img src="images/login_05.png"/></li>
+                <li > <a href="untitle.html" ><span>刘娜</span></a></li>
+                <li > <a href="untitle.html" ><img src="images/login_11.png"/></a></li>
+                <li > <a href="untitle.html" ><img src="images/login_08.png"/></a></li>
+                <li > <a href="untitle.html" ><span>退出</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div  class="newPostBlankContent"></div>
+    <div class="container">
+        <div >
+            <textarea  class="form-control"   rows="3"    id="newPostTitle">标题</textarea>
+        </div> 
+        <div class="newPostBlankContent"></div>
+        
+        <div id="newPostContent">
+            <div   id="contentStyle">&nbsp;&nbsp;&nbsp;字体&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;字号&nbsp;&nbsp;&nbsp;
+            |&nbsp;&nbsp;&nbsp;颜色&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;居中&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;加粗&nbsp;&nbsp;&nbsp;|</div>  <!--别忘了改，把nbsp；全去掉-->
+            <div   id="postContent"><textarea  class="form-control"   rows="19" ></textarea></div>
+
+        </div>
+        <div  class="newPostBlankContent"   id="buttonDiv">
+            <button type="button"   class="btn btn-default"  id="abandonButton">放弃</button>
+            <button type="button"   class="btn btn-default"  id="storageButton">存储</button>
+            <button type="button"   class="btn btn-default"  id="announceButton">发布</button>
+        </div>
+    </div>
+</body>
+</html>
