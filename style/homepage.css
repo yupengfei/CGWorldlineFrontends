@@ -1,0 +1,144 @@
+* {margin:0; padding:0; border:0;}
+body{ 
+	font-family:"宋体";
+	background-color: #f6f6f6;
+	min-height: 700px;
+
+}
+
+#center { margin-left: auto; margin-right: auto; }
+a{
+	text-decoration: none;
+}
+#banner_background {
+	position: relative; 
+	background-image:url(../images/login_02.png); 
+	min-width: 1000px;
+	width: auto; 
+	height: 42px; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_left_text{ 
+	float: left;
+	margin: 11px 11px auto 11px;
+	font-size: 12px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right_text{
+	float: right;
+	margin: 11px 5px auto 5px;
+	font-size: 12px;
+}
+.banner_input{
+	float: right;
+	width: 48px;
+	height: 24px;
+	margin: 7px 5px 0 5px;
+	border-radius:6px;
+}
+
+.usertable_big_box{
+	width: 100%;
+	min-width: 1000px;
+}
+.usertable_box{
+	width: 78%;
+	min-width: 780px;
+	overflow:hidden;
+	margin: 40px auto 0px auto;
+	background-color: white;
+}
+.usertable_pic{
+	float: left;
+	margin: 30px 20px 30px 20px;
+}
+.usertable_text_box{
+	overflow:hidden;
+	width: auto;
+}
+.usertable_head{
+	float: left;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #040404;
+}
+.usertable_paragraph{
+	float: left;
+	clear: left;
+	margin-top: 25px;
+	margin-right: 20px;
+	font-size: 12px;
+	color: #1c1c1c;
+	height: auto;
+	width: auto;
+}
+.usertable_time_pic{
+	float: left;
+	clear: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.usertable_time{
+	float: left;
+	margin: 15px 0px 25px 12px;
+	margin-bottom: 25px;
+	font-size: 12px;
+	color: #bec1c0;
+}
+#block_box{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: 40px;
+}
+#bt_more_box{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+	height: auto;
+	margin: 40px auto;
+}
+.bt_more{
+	position: relative;
+	width: 102px;
+	height: 47px;
+	margin: 0px auto 0px -56px;
+	left: 50%;
+	border-radius:8px;
+	border: 1px solid #bcbcbc;
+	background: white; 
+	font-size: 18;
+	cursor:pointer;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	min-width: 1000px;
+	border-top-width: 1px;
+	border-top-style: dashed; 
+} 
+.footer_text_left{
+	float: left;
+	font-size: 12px;
+	margin: 20px 20px 0px 20px;
+}
+.footer_text_right{
+	float: right;
+	font-size: 12px;
+	margin: 20px 20px 0px 20px;
+}
+.footer_box{
+	margin: 0px 20px;
+}

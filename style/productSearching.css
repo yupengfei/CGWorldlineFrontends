@@ -1,0 +1,95 @@
+* {margin:0; padding:0; border:0;}
+body{ 
+	font-family:"宋体";
+	background-color: #f6f6f6;
+	min-height: 700px;
+
+}
+
+#center { margin-left: auto; margin-right: auto; }
+a{
+	text-decoration: none;
+}
+#banner_background {
+	position: relative; 
+	background-image:url(../images/login_02.png); 
+	min-width: 1000px;
+	width: auto; 
+	height: 42px; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_left_text{ 
+	float: left;
+	margin: 11px 11px auto 11px;
+	font-size: 12px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right_text{
+	float: right;
+	margin: 11px 5px auto 5px;
+	font-size: 12px;
+}
+#banner_right_pic_head{
+	float: right;
+	width: 35px;
+	height: 35px;
+	margin: 2px 5px auto 5px;
+}
+#search_box{
+	margin: 50px 0 0 0;
+	width: 100%;
+	min-width: 1000px;
+	height: 36px;
+}
+#search_frame{
+	position: relative;
+	margin: 0 auto 0 auto;
+	width:60%;
+	min-width: 600px;
+	height: 36px;
+	background-color: white;
+}
+#search_frame_text{
+	float: left;
+	width: 70%;
+	min-width: 436px;
+	height: 36px;
+}
+#search_frame_pic{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 99;
+	width: 40px;
+	height: 36px;
+}
+#product_box{
+	position: relative;
+	width: 100%;
+	min-width: 1000px;
+}
+#product_list{
+	position: relative;
+	width: 777px;
+	margin: 20px auto 40px -388px;
+	left: 50%;
+	overflow:hidden;
+
+}
+.product_pic{
+	float: left;
+	width: 179px;
+	height: 216px;
+	margin: 20px 40px;
+}
