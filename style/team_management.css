@@ -1,15 +1,4 @@
 * {margin:0; padding:0; border:0;}
-#banner_background {
-	position: relative; 
-	background-image:url(../images/login_02.png); 
-	min-width: 900px;
-
-	width: auto; 
-	height: 42; 
-	margin:0px auto 0px auto;
-	background-size: 100% 100%;
-
-}
 body{ 
 	font-family:"宋体";
 	background-color: #f6f6f6;
@@ -17,6 +6,17 @@ body{
 }
 a{
 	text-decoration: none;
+}
+#banner_background {
+	position: relative; 
+	background-image:url(../images/login_02.png); 
+	min-width: 900px;
+
+	width: auto; 
+	height: 42px; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+	background-repeat: repeat-x;
 }
 #banner_box{
 	position: absolute;
@@ -95,7 +95,8 @@ a{
 	border: 1px solid #bcbcbc;
 	background: white;
 	font-size: 18; 
-	font-family: "宋体";  
+	font-family: "宋体"; 
+	cursor:pointer; 
 }
 #bt_no{
 	position: absolute;
@@ -108,4 +109,5 @@ a{
 	border: 1px solid #bcbcbc;
 	background: white; 
 	font-size: 18; 
+	cursor:pointer;
 }

@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+	<title>知识</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style/knowledge.css"/>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript"> 
+		$(document).ready(function(){
+  			$("#nav_bt").mouseover(function(){
+    			$(this).next("#nav_pic_box").slideDown(500);
+  			});
+  		
+  			$("#nav_box").mouseleave(function(){
+    			$('#nav_pic_box').slideUp(500);
+  			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="banner_background">
+		<div id="banner_box"> 
+			<div class= "banner_left_text">
+				<a class="banner_a" href="#">
+					CGWorldline 
+				</a>
+			</div>
+			<div class="banner_left_text">
+				<a  class="banner_a" href="#">
+					个人主页
+				</a>
+			</div>
+			<div class="banner_left_text">
+				<a  class="banner_a" href="#">
+					知识库
+				</a>
+			</div>
+			<div class="banner_left_text">
+				<a  class="banner_a" href="#">
+					新闻
+				</a>
+			</div>
+			<div class="banner_left_text">
+				<a  class="banner_a" href="#">
+					商店
+				</a>
+			</div>
+			<div class="banner_left_text">
+				<a  class="banner_a" href="#">
+					需求
+				</a>
+			</div>
+			<div class="banner_right_text">
+				<a class="banner_a" href="#">
+					退出
+				</a>
+			</div>
+			<a href="#">	
+				<img id="banner_right_pic_settings" src="images/login_08.png" />
+			</a>
+			<a href="#">	
+				<img id="banner_right_pic_email" src="images/login_11.png" />
+			</a>
+			<div class="banner_right_text">
+				<a class="banner_a" href="#">
+					刘娜
+				</a>
+			</div>
+			<a href="#">
+				<img id="banner_right_pic_head" src="images/login_05.png" />
+			</a>
+		</div>
+	</div>
+	<div id="search_box">
+		<div id="search_frame" >
+			<div >
+				<input id="search_frame_text" type="text" name="" max="3" />
+			</div>
+			<img id="search_frame_pic" src="images/knowledgeBase_03.png"/>
+			
+		</div>
+	</div>
+	<div id="nav_big_box" >
+		<div id="nav_box">
+			<img id="nav_bt"  src="images/knowledgeBase_05.png" />
+			<div id="nav_pic_box">
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+				<img class="nav_pic" src="images/knowledgeBase_02.png" />
+			</div>
+		</div>
+	</div>
+	<div class="usertable_big_box">
+		<div class="usertable_box">
+			<img class="usertable_pic" src="images/login_18.png" />
+			<div class="usertable_text_box">
+				<p class="usertable_head">
+					Sketch mac是一款很新颖的适量设图软件 
+				</p>
+				<p class="usertable_paragraph">
+					软件页面清爽、</br>
+					简洁，功能多样强大。</br>
+					可以免费使用空间、</br>
+					菜单、调色板等功能，</br>
+					还完美支持布尔运算，符号，和强大的标尺,是难得的一款实用矢量绘图软件。
+				</p>
+				<img class="usertable_time_pic" src="images/login_03.png">
+				<p class="usertable_time">
+					2014.11.11 11:11
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="usertable_big_box">
+		<div class="usertable_box">
+			<img class="usertable_pic" src="images/login_18.png" />
+			<div class="usertable_text_box">
+				<p class="usertable_head">
+					Sketch mac是一款很新颖的适量设图软件 
+				</p>
+				<p class="usertable_paragraph">
+					软件页面清爽、简洁，功能多样强大。可以免费使用空间、菜单、调色板等功能，还完美支持布尔运算，符号，和强大的标尺,是难得的一款实用矢量绘图软件。
+				</p>
+				<img class="usertable_time_pic" src="images/login_03.png">
+				<p class="usertable_time">
+					2014.11.11 11:11
+				</p>
+			</div>
+		</div>
+	</div>
+		<div class="usertable_big_box">
+		<div class="usertable_box">
+			<img class="usertable_pic" src="images/login_18.png" />
+			<div class="usertable_text_box">
+				<p class="usertable_head">
+					Sketch mac是一款很新颖的适量设图软件 
+				</p>
+				<p class="usertable_paragraph">
+					软件页面清爽、</br>
+					简洁，功能多样强大。</br>
+					可以免费使用空间、</br>
+					菜单、调色板等功能，</br>
+					还完美支持布尔运算，符号，和强大的标尺,是难得的一款实用矢量绘图软件。
+				</p>
+				<img class="usertable_time_pic" src="images/login_03.png">
+				<p class="usertable_time">
+					2014.11.11 11:11
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="bt_more_box">
+			<input class="bt_more" type="submit" value="更多" />
+	</div>
+</body>
+</html>
