@@ -1,16 +1,13 @@
 <!doctype html>
 <html>
 <head> 
-    <title>军团创建</title>
+    <title>任务通知界面</title>
     <meta charset="utf-8" />
-    <meta  name="viewport" content="width=device-width,initial-scale=2.0">
-    <link href="style/armyCreate.css"   rel="stylesheet" />
-    <link href="style/repeatUsedStyle.css"   rel="stylesheet" />
-    <link href="style/bootstrap.css"  rel="stylesheet"/> 
-    <link href="style/bootstrap-theme.css"  rel="stylesheet"/>
-    <script  src="scripts/CGWorldlineWeb.js"></script>
+    <meta  name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="style/bootstrap.css"  rel="stylesheet"/>  
+    <link href="style/taskNotification.css"  rel="stylesheet"/> -->
 </head>
-<body  class="body">
+<body>
     <div class="navbar  navbar-default" id="navBackground">    
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"  data-target=".navbar-responsive-collapse">
@@ -20,6 +17,7 @@
             <span  class="icon-bar"></span>
             </button>
         </div>
+        
         <div class="collapse navbar-collapse  navbar-responsive-collapse">
             <ul  class="nav navbar-nav">  
                 <li>  <a href="untitle.html" ><span>CGWorldline</span></a></li>
@@ -27,7 +25,7 @@
                 <li> <a href="untitle.html" ><span>知识库</span></a></li>
                 <li> <a href="untitle.html" ><span>新闻</span></a></li>
                 <li> <a href="untitle.html" ><span>商店</span></a></li>
-                <li> <a href="＃" ><span>需求</span></a></li>
+                 <li> <a href="＃" ><span>需求</span></a></li>
             </ul>
             <ul class="list-inline  pull-right ">
                 <li><img src="images/login_05.png"/></li>
@@ -35,31 +33,26 @@
                 <li > <a href="untitle.html" ><img src="images/login_11.png"/></a></li>
                 <li > <a href="untitle.html" ><img src="images/login_08.png"/></a></li>
                 <li > <a href="untitle.html" ><span>退出</span></a></li>
+
             </ul>
         </div>
     </div>
-    <div  class="container">
-    	  <div  class="armyHeadImage">
-   			    <img  src="images/headImage.png" />
-   		  </div>
-   	    <div  class="armyName">
-   			    <div class="armyNameText">名称:</div> 
-            <div  id="inputFormDiv">
-                <input  type="text"   placeholder="战魂"  class="inputForm"/>
-            </div>
-            <!--<input  type="text"   placeholder="名称:战魂"  class="inputForm"/>-->
-    	  </div>
-   	    <div  class="armyAdd">
-   			    邀请：<a  href="#"><img src="images/invitation.png"／></a>       
-   	    </div>
-        <div  class="armyCheckbox">
-             <div  id="armyCheckboxText">是否公开：</div>
-   				   <div  id="armyCheckboxIs"><input  type="checkbox" name="isOrNotNotice"  class="checkboxSize"/></div>
-             <div  id="armyCheckboxTextIs">是 </div>
-   				   <div  id="armyCheckboxNot"><input  type="checkbox"  name="isOrNotNotice"  class="checkboxSize"/></div>
-             <div  id="armyCheckboxTextNot">否 </div>
-   			  
-        </div> 
+    <div  class="taskNotificationContent"  id="taskNotificationFontCenterStyle">
+        <div class="taskNotificationLfetImage"> 
+            <img   src="images/group_03.png"/>
+        </div>
+        <div  class="taskNotificationRigthContent">
+            <div  class="taskNotificationRigthContentOne" >原画需求：但还是继续健康登记卡可敬可嘉看看妈妈看看吗健康快速打开了打开</br>还将加快速度电话亟待解决宽度开始快开始加快大家快点快点看看 </div>
+            <div  class="taskNotificationRigthContentTwo">时间：2014.12.1</div>   
+            <div  class="taskNotificationRigthContentTwo">金额：¥5000</div>
+            <div  class="taskNotificationRigthContentTwo">发布人：李岩龙   发布人信用积分：<a  heft="#"  id="RightContentSuperLink">去看看</a></div>
+        </div>  
+
+        
+
+
+
     </div>
-</body>
+
+<body>
 </html>
