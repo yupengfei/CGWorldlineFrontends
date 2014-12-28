@@ -1,0 +1,40 @@
+body{
+    background-color:#f6f6f6;
+    min-width:1000px; 
+    font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+    font-size:20px;
+}
+a{
+   text-decoration:none;
+  /*color:#a5d6b8;*/
+   color:#01b37a;
+   font-size:16px;
+}
+ #morePageInformationShowDiv
+ {
+ 	width:78%;       
+ 	min-height:210px;
+  min-width:780px;
+ 	background-color:#ffffff;
+ 	margin-top:40px;
+  border-bottom:1px solid #e4e4e4;
+  margin: 0px auto;
+}
+#userInformationDiv{
+    /*height:154px;*/
+    float:left;
+    margin-left:22px;  
+    margin-top:41px; 
+
+}
+.informationContextName{
+    clear:left;
+    float:left;
+    margin-bottom:20px;
+   
+}
+.informationContextEmail{
+    float:left;
+    clear:left;
+    /*margin-bottom:14px;*/
+}
