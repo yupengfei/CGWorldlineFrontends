@@ -11,137 +11,65 @@ a{
    color:#01b37a;
    font-size:16px;
 }
-#p{
-    clear:left;
-    float:left;
-
-}
  #morePageInformationShowDiv
  {
  	width:78%;       
  	min-height:210px;
-    min-width:780px;
  	background-color:#ffffff;
  	margin-top:40px;
-    border-bottom:1px solid #e4e4e4;
+   
+    min-width:780px;
     margin: 0px auto;
 }
-#userHeadImageDiv{
+#userHeadImage{
     clear:left;
     float:left;
-    margin-left:21px;
-    margin-top:41px;
-   
+    margin-left:17px;
+    margin-top:29px;
 }
-#userInformationDiv{
-    /*height:154px;*/
+#userInformation{
+    height:154px;
     float:left;
-    margin-left:22px;  
-    margin-top:41px; 
-
+    margin-left:20px;   
 }
 .informationContextName{
     clear:left;
     float:left;
     margin-bottom:20px;
-   
+    margin-top:20px; 
 }
 .informationContextEmail{
     float:left;
     clear:left;
-    margin-bottom:12px;
+    margin-bottom:20px;
 }
 .informationContextIsorNotDiv{
     float:left;
-    clear:left;   
-}
-.postList{
     clear:left;
-    float:left;
-    margin-left:21px;
-    margin-top:30px;
-}
-.moreThan{
-    float:left;
-    margin-left:17px;
-    margin-top:30px;
-}
-.myInformationPageText
-{   width:78%;
-    min-width:780px;
-    min-height:170px;
-    background-color:#ffffff;
-    border-top:1px   solid #e4e4e4;
-    border-bottom:1px  solid #e4e4e4;
-    margin:0px auto;
+    height:25px;
    
 }
-.horizontal-List
-{  
-    width:94.358974358974%;
-   
-    min-height:50px; 
-    position:relative;
-    top:0px;
-    left:2.820512820513%;
-    border-bottom:1px solid #e4e4e4;    
- }
- #listTitleContent
- {  height:50px;
-    float:left;
-    line-height:50px;
-
- }
-#dateTimeContent
- {  height:50px;
-    float:right;
-    line-height:50px; 
- }
- #goodsList{
-    width:78%;
-    min-width:780px;
-    min-height:244px;
-    background-color:#ffffff;
-    border-top:1px   solid #e4e4e4;
-    border-bottom:1px  solid #e4e4e4;
-    margin:0px auto;
- }
- .goodsListImage{
-    clear:left;
-    float:left;
-    margin-left:30px;
-    padding-top:19px;  
- }
- .goodsListText{
-    float:left;
-    margin-left:10px;
-    height:95px;
-    line-height:95px;
-
- }
-/*
 #checkboxStyleDiv{
-  
-    height:27px;
-    clear:left;
-    float:left; 
-    margin-top:10px;
-   
-
-}
-#checkboxStyle{
-    width:2px;
-    height:27px; 
     
+    height:25px;
+    clear:left;
+    float:left;
+    text-align:center;
+
+   
 }
+/*#checkboxStyle{
+    width:25px;
+    height:25px; 
+   
+}*/
 #checkboxTextDiv{
-  
-    height:27px;
+   
+    height:25px;
     float:left;
     margin-left:10px;
-   
-    margin-top:10px;
-    
+    line-height:25px;
+
 }
 #issuedList{
     min-width:780px; 
@@ -151,17 +79,45 @@ a{
 
 
 }
+.postListOne{
+    clear:left;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+
+}
+.postListTwo{
+    clear:left;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+
+}
 .postList{
     clear:left;
     float:left;
     margin-left:20px;
-    margin-top:10px;
+    margin-top:30px;
+    /*position:relative;
+    left:21px;
+    bottom:10px;*/
 }
+.moreThanOne{
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
 
+}
+.moreThanTwo{
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+
+}
 .moreThan{
     float:left;
-    margin-left:17px;
-    margin-top:10px;
+    margin-left:20px;
+    margin-top:30px;
 }
 
 .myInformationPageText
@@ -177,7 +133,7 @@ a{
 .horizontal-List
 {  
     width:94.358974358974%;
-   
+    /*min-width:736px;*/
     min-height:50px; 
     position:relative;
     top:0px;
@@ -203,6 +159,8 @@ a{
     border-top:1px   solid #e4e4e4;
     border-bottom:1px  solid #e4e4e4;
     margin:0px auto;
+   
+
  }
  .goodsListImage{
     clear:left;
@@ -216,7 +174,7 @@ a{
     height:95px;
     line-height:95px;
 
- }*/
+ }
 
 
 
