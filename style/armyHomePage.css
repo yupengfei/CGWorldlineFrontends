@@ -9,10 +9,10 @@
 	background-size: 100% 100%;
 
 }
-body{ 
-	font-family:"宋体";
+#Body{ 
+	
     
-	background-color: #f6f6f6;
+	background-color:#f6f6f6;
 	min-height: 700px;
 }
 a{
@@ -22,18 +22,20 @@ span{
    color:#ffffff;
 
 }
+.rightNavliDivStyle{
+  padding-top:5px;
+
+}
 #navBackground{  
 	background-image:url(../images/login_02.png);
 
 	background-size:100% 100%;                /**导航背景图片*/
 
 }
-.liStyle{
-  padding-top:5px;
 
-}
 #fontStyle{
-
+    
+  
   font-family:"宋体"; 
   font-size:20px;
 }
@@ -86,16 +88,17 @@ span{
 }
 #militaryResult{
     min-width:780px;
-	min-height:80px;
+    min-height:80px;
     clear:left;
     float:left;
     background-color:#f5f6f6;     
 }
 #militaryResultText{
-	min-width:780px;
-	min-height:80px;
-	clear:left;
-	float:left;
+
+    min-width:780px;
+    min-height:80px;
+    clear:left;
+    float:left;
     padding-top:40px;
     padding-bottom:20px;
     background-color:#f5f6f6;    
