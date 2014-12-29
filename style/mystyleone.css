@@ -34,6 +34,10 @@ body
 
   background-size:100% 100%;                  /**导航背景图片*/
 }
+.liStyle{
+  padding-top:5px;
+
+}
 #content1
 {
 	height:100px;

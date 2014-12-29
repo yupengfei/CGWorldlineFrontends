@@ -1,15 +1,32 @@
 .body{
      
-     background-color:#f6f6f6;
-     font-family:"宋体";
-     font-size:20px;
-     color:#191919;
+    background-color:#f6f6f6;
+    
+    color:#191919;
 }
+#fontStyle{
+    font-family:"宋体";
+    font-size:20px;
 
+
+}
 #navBackground{  
 	background-image:url(../images/login_02.png);
 
 	background-size:100% 100%;                /**导航背景图片*/
+
+}
+#rightNavStyle{
+  
+   
+
+}
+span{
+   color:#ffffff;
+
+}
+.liStyle{
+  padding-top:5px;
 
 }
 /*页面内容部分的css*/
