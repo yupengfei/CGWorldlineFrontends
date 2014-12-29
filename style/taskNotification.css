@@ -8,8 +8,8 @@ body
 #taskNotificationFontCenterStyle{
 
 	font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
-    font-size:20px;
-    margin:0 auto;
+  font-size:20px;
+  margin:0 auto;
 }
 #navBackground
 {  
@@ -28,17 +28,19 @@ span{
    overflow:hidden;
    position:relative;
 
+
+}
+.taskNotificationLfetImage{
+    margin:40px 40px auto  40px;  /*25.6410256410%*/
+    clear:left;
+    float:left;
 }
 .taskNotificationRigthContent{
    position:absolute;
    top:0px;
-   left:99px;
+   left:150px;
 }
-.taskNotificationLfetImage{
-    margin:20px 20px auto  20px;  /*25.6410256410%*/
-    clear:left;
-    float:left;
-}
+
 .taskNotificationRigthContentOne{
     float:left;
     margin:42px 74px 19px 0px;
