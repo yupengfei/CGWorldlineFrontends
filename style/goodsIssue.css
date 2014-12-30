@@ -5,11 +5,15 @@ body
 }
 #navBackground
 {  
-    background-image:url(../images/login_02.png);
+    background-image:url(../img/login_02.png);
     background-size:100% 100%;                  /**导航背景图片*/
 }
 span{
     color:#ffffff;
+
+}
+.liStyle{
+  padding-top:5px;
 
 }
 .goodsIssueContent{
@@ -109,7 +113,7 @@ span{
 
     width:65px;
     height:45px;
-	background-image:url(../images/upLoad.png);
+	background-image:url(../img/upLoad.png);
 
 }
 .goodsIssueRightContentDivTwo{

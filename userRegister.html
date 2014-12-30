@@ -5,9 +5,11 @@
     <meta charset="utf-8" />
     <meta  name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="style/bootstrap.css"  rel="stylesheet"/>
-    <link href="style/bootstrap-responsive.css"  rel="stylesheet"/>
-    <link href="style/mystyleone.css"   rel="stylesheet" />
-    <script src="scripts/CGWorldlineWeb.js"></script>
+    
+    <link href="style/userRegister.css"   rel="stylesheet" />
+    <!--<script src="scripts/registerPage.js"></script>-->
+    <script src="scripts/test.js"></script>
+
 </head>
 <body>
     <div class="navbar  navbar-default"    id="navBackground">    
@@ -31,7 +33,7 @@
                 <li> <a href="untitle.html" ><span>商店</span></a></li>
                 <li> <a href="untitle.html"><span>需求</span></a></li>
             </ul>
-            <!--<form  class="navbar-form  navbar-right" >-->
+            
             <div  class="navbar-form  navbar-right" >           
                 <div  class="form-group"  />
                     <label ><span>用户名</span></label>  
@@ -40,7 +42,7 @@
                     <label ><span>密码</span></label>  
                     <input type="text"    class="form-control"   id="userPassword" />
 
-                    <button type="submit"   id="loginButton"  class="btn"  click="login()"><span>登录</span></button>  <!--此类型在login.html的css里面-->
+                    <button type="submit"   id="loginButton"  class="btn"><span>登录</span></button>  <!--此类型在login.html的css里面-->
                     <button type="submit"  id="registerButton" class="btn" ><span>注册</span></button>
 
                 </div>
@@ -50,18 +52,49 @@
 
     </div>
 
-    <div class="container">
+    <div class="fontStyle">
         <div   id="form_top_Content"></div>
-        <div> 
+  
 
-            <div id="formGroup">
-                <div    id="photoDiv"    class="center-block" > <img  src="images/userRegister_03.png"   id="photo"   class="img_responsive" /></div>
+        <div class="formGroup" >
+            <div    class="photoDiv"> <img  src="img/userRegister_03.png"  class="img_responsive" /></div>
 
-                <div  id="inputFormDiv">   <input type="text" class="form-control" placeholder="请输入用户名"   id="inputForm"/></div>
+            <div  class="inputFormDiv"><input type="text"  placeholder="请输入用户名"   class="inputForm"/></div>
 
-            </div>
+        </div>
+        <div  class="blankContent"></div>
+        <div class="formGroup" >
+            <div    id="photoDivEmail"> <img  src="img/userRegister_07.png"     class="img_responsive" /></div>
 
-            <div   id="formGroup">
+            <div  class="inputFormDiv"><input type="text"  placeholder="请输入邮箱"   class="inputForm"  id="email"/></div>
+
+        </div>
+        <div  class="blankContent"></div>
+        <div class="formGroup" >
+            <div    class="photoDiv"> <img  src="img/userRegister_11.png"     class="img_responsive" /></div>
+
+            <div  class="inputFormDiv"><input type="text"  placeholder="请输入密码"   class="inputForm"/></div>
+
+        </div>
+        <div  class="blankContent"></div>
+        <div class="formGroup" >
+            <div    class="photoDiv"> <img  src="img/userRegister_11.png"     class="img_responsive" /></div>
+
+            <div  class="inputFormDiv"><input type="text"  placeholder="请再次输入密码"   class="inputForm"/></div>
+
+        </div>
+        <div  class="blankContent"></div>
+        <div class="formGroup" >
+            <div   id="photoDivNickname"> <img  src="img/userRegister_14.png"     class="img_responsive" /></div>
+
+            <div  class="inputFormDiv"><input type="text"  placeholder="昵称"  class="inputForm"/></div>
+
+        </div>
+        
+        
+    </div>
+
+           <!-- <div   id="formGroup">
                 <div   id="photoDivEmail" ><img  src="images/userRegister_07.png"   id="photo"    class="img_responsive" /> </div>
 
                 <div id="inputFormDiv"> <input type="email"   class="form-control"  placeholder="请输入邮箱"   id="inputForm"/> </div>
@@ -87,13 +120,13 @@
 
             <div   id="inputFormDiv">  <input type="text"   class="form-control"  placeholder="昵称"   id="inputForm" /> </div>
 
-        </div>
+   
 
 
 
 
-    </div>
-
+    </div>-->
+    <div  class="blankContent"></div>
     <div   id="registerDiv"> <input   class="btn btn-default"  type="submit"  value="注册"  id="re"/> </div>
 
 

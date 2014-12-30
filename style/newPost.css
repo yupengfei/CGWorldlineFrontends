@@ -6,6 +6,10 @@ body
   background-color:#f6f6f6;                 /*background-color:#DCDCDC;*/
  
 }
+.liStyle{
+  padding-top:5px;
+
+}
 .blackFont{                                /*把span里的文字设置成黑色的*/
   color:#000000;
 }
@@ -22,7 +26,7 @@ body
 }
 #navBackground
 {  
-  background-image:url(../images/login_02.png);
+  background-image:url(../img/login_02.png);
 
   background-size:100% 100%;                  /**导航背景图片*/
 }

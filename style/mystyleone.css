@@ -30,7 +30,7 @@ body
 
 #navBackground
 {  
-  background-image:url(../images/login_02.png);
+  background-image:url(../img/login_02.png);
 
   background-size:100% 100%;                  /**导航背景图片*/
 }
@@ -187,11 +187,11 @@ span
 
 }
 #loginButton{
-  background-image:url(../images/login_02.png);
+  background-image:url(../img/login_02.png);
   border:0px;
 }
 #registerButton{
- background-image:url(../images/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
+ background-image:url(../img/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
  border:0px;
 }
 

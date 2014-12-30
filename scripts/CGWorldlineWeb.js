@@ -2,24 +2,13 @@
 //User的构造函数
 function User(username,userpassword)
 {
-  this.Username=username;
-  this.Userpassword=userpassword;  
-
-
+    this.Username=username;
+    this.Userpassword=userpassword;  
 }
 function User(username){
                                             
- this.Username=username;
-
+    this.Username=username;
 }
-function  biaodan()
-{
-
-
-
-
-}
-
 //登录时的js
 $(document).ready（function(){
     $("#loginButton").click(function (){
@@ -49,9 +38,6 @@ $(document).ready（function(){
                         alert("对不起，该用户从未注册过!");
                     else(status=="frozen")
                         alert("对不起，该用户已被冻结！");
-
-
-
 }
 
 });
@@ -60,35 +46,44 @@ $(document).ready（function(){
 //注册时的js
 
 $(document).ready(function(){
-$("#registerButton").click(function() {
+    $("#registerButton").click(function() {
 
-  var stringToSend = JSON.stringify(new User(  
-  $("#userCancelUserPassword").val(),
+      var stringToSend = JSON.stringify(new User(  
+          $("#userCancelUserPassword").val(),
 
-)
+    )
 );
   alert(stringToSend);
 $.post("/register",stringToSend,
-   function(data,status){
-    var returnMessage = JSON.parse(data)
-    if(returnMessage.FeedbackCode!=2)
-          alert("Data: " + returnMessage.FeedbackText);
-    else
-          window.location.href='http://localhost:8080'
+    function(data,status){
+        var returnMessage = JSON.parse(data)
+            if(returnMessage.FeedbackCode!=2)
+                alert("Data: " + returnMessage.FeedbackText);
+            else
+                window.location.href='http://localhost:8080'
 
-   if(status=="success")
-                         //隐藏原有的div,显示另外的div
-     $(#login).hide();
-     $(#successDiv).show();
-   else(status=="fail")
-     alert("对不起，用户名或密码错误!");
-  else(status=="unregistered")
-     alert("对不起，该用户从未注册过!");
-  else(status=="frozen")
-      alert("对不起，该用户已被冻结!");               
-});
-});
-});
+            if(status=="success")
+                                   //隐藏原有的div,显示另外的div
+                $(#login).hide();
+                $(#successDiv).show();
+            else(status=="fail")
+                alert("对不起，用户名或密码错误!");
+            else(status=="unregistered")
+                alert("对不起，该用户从未注册过!");
+            else(status=="frozen")
+                alert("对不起，该用户已被冻结!");               
+          });
+          });
+          });
+
+
+
+
+
+
+
+
+
 
 
 //加入导航时需要加载的函数
