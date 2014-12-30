@@ -5,12 +5,21 @@ body
 }
 #navBackground
 {  
-    background-image:url(../images/login_02.png);
+    background-image:url(../img/login_02.png);
     background-size:100% 100%;                  /**导航背景图片*/
 }
 span{
     color:#ffffff;
 
+}
+.liStyle{
+  padding-top:5px;
+
+}
+.goodsIssueContent{
+   width:78%;
+   min-width:780px;
+   min-height:280px;
 }
 #goodsIssueFontCenterStyle{
 
@@ -34,7 +43,6 @@ span{
 }
 .goodsIssueRightContentDiv{	
     float:left;
-   
     width:55.5%;
     min-width:555px;
     min-height:277px;
@@ -105,7 +113,7 @@ span{
 
     width:65px;
     height:45px;
-	background-image:url(../images/upLoad.png);
+	background-image:url(../img/upLoad.png);
 
 }
 .goodsIssueRightContentDivTwo{
@@ -126,9 +134,13 @@ span{
 #goodsIssueSureButtonDivStyle{
 	clear:left;
 	float:left;
-    margin-left:454px;
+    margin-left:45.4%;
     margin-top:40px;
-
+}
+#goodsIssueAbandonButtonDivStyle{
+    float:left;
+    margin-left:21.4%;
+    margin-top:40px;
 }
 #sureButton{
     width:73px;
@@ -145,10 +157,6 @@ span{
     border:1px solid #e4e4e4;
 
 }
-#goodsIssueAbandonButtonDivStyle{
-    float:left;
-    margin-left:214px;
-    margin-top:40px;
-}
+
 
 

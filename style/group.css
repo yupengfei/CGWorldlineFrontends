@@ -1,0 +1,69 @@
+body
+{
+
+  background-color:#F0F8FF;                 /*background-color:#DCDCDC;*/
+ 
+}
+#navBackground
+{  
+  background-image:url(../img/login_02.png);
+
+  background-size:100% 100%;                  /**导航背景图片*/
+}
+.liStyle{
+  padding-top:5px;
+
+}
+#content1
+{
+	height:100px;
+}
+#content2
+{
+  height:100px;
+}
+#content3{
+  height:40px;
+   
+}
+#content4{
+	height:50px;
+}
+#buttonCenter{
+  text-align: center;
+}
+div{
+  border:1px solid transparent；
+}
+#buttonSure{
+   margin-right:50px;
+   width:100px;
+   height:43px;
+}
+#buttonCanel{
+   width:100px;
+   height:43px;
+}
+span
+{
+  color:#FFFFFF;
+}
+#radioButton{
+	width:1170px;
+	height:86px;
+  background-color:#ffffff;
+  text-align:center;
+  padding-top:43px; 
+  border:0px;
+}
+#textButton1{
+  border:0px;                                 /* width:1170px;height:86px;*/
+  width:1170px;
+  height:66px;  
+}
+#textButton2{
+  
+  border:0px;
+  height:327px;
+  width:1170px;
+}

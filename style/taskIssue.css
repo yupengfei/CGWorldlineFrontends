@@ -8,6 +8,15 @@
   font-family:"宋体"; 
   font-size:20px;
 }
+span{
+  color:#ffffff;
+
+
+}
+.liStyle{
+  padding-top:5px;
+
+}
 #taskType{
 
 	min-width:780px;

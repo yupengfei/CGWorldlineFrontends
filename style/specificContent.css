@@ -2,16 +2,24 @@
 
   background-color:#f6f6f6;
 
+
 }
 #navBackground
 {  
-  background-image:url(../images/login_02.png);
+  background-image:url(../img/login_02.png);
   background-size:100% 100%;                  /**导航背景图片*/
 }
 span
 {
   color:#ffffff;
 }
+.specificContentFontCenterStyle{
+
+  font-family:"宋体－简","黑体",serif;  /*无衬线是sans seri*/
+  font-size:20px;
+  margin:0 auto;
+}
+
 #userName
 {
   height:24px;width:50px;
@@ -22,14 +30,15 @@ span
 
 }
 #loginButton{
-  background-image:url(../images/login_02.png);
+  background-image:url(../img/login_02.png);
   border:0px;
 }
 #registerButton{
- background-image:url(../images/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
+ background-image:url(../img/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
  border:0px;
 }
-.loginContent{                                  /*对层的设置*/
+.loginContent{
+  width:78%;                                 /*对层的设置*/
   min-width:780px;
   min-height:135px;
   background-color:#ffffff;
@@ -91,10 +100,17 @@ span
 
 }
 #specificContentImg{
+  width:78%;
   min-width:780px;
   min-height:584px;
-  border:1px solid #000000;
+ 
   clear:left;
   float:left;
+
+}
+#specificImg{
+   width:100%;
+
+
 
 }

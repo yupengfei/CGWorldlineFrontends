@@ -1,0 +1,85 @@
+span
+{
+  color:#FFFFFF;
+}
+#navBackground
+{  
+  background-image:url(../img/login_02.png);
+
+  background-size:100% 100%;                  /**导航背景图片*/
+}
+
+#userName
+{
+  height:24px;width:50px;
+}
+#userPassword
+{
+  height:24px;width:53px;
+
+}
+#loginButton{
+  background-image:url(../img/login_02.png);
+  border:0px;
+}
+#registerButton{
+ background-image:url(../img/login_02.png);      /*background-color:transparent； 把按钮内景设置为透明色*/
+ border:0px;
+}
+.titleContent
+{ margin-top:80px;
+  margin-bottom:40px;
+  font-size:20px;
+}
+#showContent{
+  width:1170px;
+  height:157px;
+  border:1px solid #F0F8FF;
+  background-color:#ffffff;
+  border-radius:5px;
+  margin:0 auto;
+  text-algin:center;
+}
+#cancelReasonContent{
+  width:1170px;
+  height:157px;
+  border:1px solid #F0F8FF;
+  background-color:#ffffff;
+  border-radius:5px;
+  margin:0 auto;
+}
+.userCanelButtonStyle{
+  text-align:center;    
+  margin-top:50px;             /*把按钮居中的类*/
+}
+.userCanelImg1{
+  width:60px;
+  height:62px;
+  float:left;
+  clear:left;
+  margin-left:100px;
+  margin-top:50px;
+  text-align:center;
+}
+.userCanelImg2
+{ width:60px;
+  height:62px;
+  float:left;
+  margin-left:150px;
+  margin-top:50px;
+  text-align:center;
+}
+.userCancelCheckbox{
+ color:#000000;
+ font-size:15px;
+ letter-spacing:3px;
+}
+#cancelReasonSpecialContent{
+  margin-left:80px;
+  margin-top:20px;
+}
+#abandonButton{
+  width:102px;
+  height:50px;
+  margin-right:40px;
+}
