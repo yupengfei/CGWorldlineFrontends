@@ -1,0 +1,231 @@
+* {margin:0; padding:0; border:0;}
+body{ 
+	font-family:"宋体";
+	background-color: #f5f6f6;
+	min-height: 700px;
+
+}
+p{
+	font-size: 18px;
+}
+#center { margin-left: auto; margin-right: auto; }
+a{
+	text-decoration: none;
+}
+#banner_background {
+	position: relative; 
+	background-image:url(../images/login_02.png); 
+	min-width: 1000px;
+	width: auto; 
+	height: 42px; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_left_text{ 
+	float: left;
+	margin: 10px 11px auto 11px;
+	font-size: 18px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right_text{
+	float: right;
+	margin: 10px 5px auto 5px;
+	font-size: 18px;
+}
+#banner_right_pic_settings{
+	float: right;
+	margin: 7px 5px auto 5px;
+	
+}
+#banner_right_pic_email{
+	float: right;
+	margin: 10px 5px auto 5px;
+	
+}
+#banner_right_pic_head{
+	float: right;
+	margin: 2px 5px auto 5px;
+}
+#time_axis_big_box{
+	width: 100%;
+	min-width:1000px;
+	margin: 40px 0 0 0;
+}
+#time_axis_middle_box{
+	margin: 0 0 0 8.8%;
+	
+	 
+}
+
+#axis_begin_time_pic{
+	width: 50px;
+	height: 48px;
+	border-style: solid;
+	border-width: 0px;
+	background-image:url(../images/time.png); 
+}
+#axis_begin_vertical{
+	width: 4px;
+	height: 23px;
+	margin: 0 0 0 22px;
+	background-color: #01b46c;
+}
+.time_axis_list_box{
+	position: relative;
+	width: 51%;
+	min-width: 510px;
+	border-style: solid;
+	border-width: 0px;	
+	overflow: hidden;
+}
+.axis_vertical{
+	float: left;
+	width: 4px;
+	height: 0px;
+	margin: 0 0 0 22px;
+
+	background-color: #01b46c;
+}
+.axis_horizontal{
+	height: 4px;
+	width: 110px;
+	background-color: #01b46c;
+	vertical-align: middle;
+	float: left;
+}
+.axis_middle_pic{
+	position: absolute;
+	width: 20px;
+	height:20px;
+	background: #f5f6f6;
+	background-image:url(../images/timeAxis.png); 
+	z-index: 99;
+	left: 15px;
+	top: 0px;
+}
+.time_axis_small_box{
+	/*好神奇，不需要设置宽度自适应外层宽度*/
+	margin: 25px 0 25px 0;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 1px;	
+	border-color: #01b46c;
+
+}
+.time_axis_small_box p{
+	
+	margin: 25px 0 0 46px;/*改了原版*/
+	font-size: 18px;
+}
+.time_axis_float_text{
+	float: left;
+
+}
+.time_axis_address_box{
+	float: left;
+
+	width: 20.4%;
+	min-width: 204px;
+	height: 40px;
+	margin: 17px 0 0px 12px;
+	border-style: solid;
+	border-width: 1px;	
+	border-radius: 5px;
+	border-color: #e4e4e4;
+	background-color: #f9f9f9;
+}
+.time_axis_address_box p{
+	margin: 10px 0 0 20px ;
+	font-size: 18px;/*原版*/
+	overflow: hidden;
+}
+.time_axis_download_div{
+	float: left;
+	margin: 17px 0 0 10px ;
+}
+.time_axis_download{
+	width: 56px;
+	height: 40px;
+	background-color: #01b56c;
+	border-style:solid;
+	border-color: #01b56c;
+	border-width:1px; 
+	border-radius: 8px;
+	font-size: 18px;
+	color:white; 
+	cursor:pointer;
+}
+.time_axis_yes_div{
+	float: left;
+	clear: left;
+	margin: 20px 0 15px 100px;
+}
+.time_axis_yes{
+	width: 56px;
+	height: 40px;
+	background-color: white;
+	border-style:solid;
+	border-color: #e4e4e4;
+	border-width:1px; 
+	border-radius: 8px;
+	font-size: 18px;
+	cursor:pointer;
+}
+.time_axis_no_div{
+	float: left;
+	margin: 20px 0 15px 100px;
+}
+.time_axis_no{
+	width: 56px;
+	height: 40px;
+	background-color: white;
+	border-style:solid;
+	border-color: #e4e4e4;
+	border-width:1px; 
+	border-radius: 8px;
+	font-size: 18px;
+	cursor:pointer;
+}
+/*
+.axis_vertical_top{
+
+	border-style: solid;
+	border-width: 1px;	
+}需要用js获取div长度
+*/
+/*
+#axis_begin_time_pic{
+	clear:both;
+	width: 50px;
+	height: 48px;
+	border-style: solid;
+	border-width: 1px;
+}
+#axis_begin_vertical{
+	clear:both;
+	position: static;
+	width: 4px;
+	height: 23px;
+	margin: 0 0 0 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+#axis_time_pic{
+	border-style: solid;
+	border-width: 1px;
+}
+.time_axis_list_box{
+
+}*/
