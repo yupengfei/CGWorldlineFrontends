@@ -1,4 +1,4 @@
-* {margin:0; padding:0; border:0;}
+﻿* {margin:0; padding:0; border:0;}
 body{ 
 	font-family:"宋体";
 	background-color: #f5f6f6;
@@ -14,7 +14,7 @@ a{
 }
 #banner_background {
 	position: relative; 
-	background-image:url(../images/login_02.png); 
+	background-image:url(../img/login_02.png); 
 	min-width: 1000px;
 	width: auto; 
 	height: 42px; 
@@ -31,7 +31,7 @@ a{
 }
 .banner_left_text{ 
 	float: left;
-	margin: 10px 11px auto 11px;
+	margin: 9px 11px auto 11px;
 	font-size: 18px; 
 }
 .banner_a{
@@ -39,7 +39,7 @@ a{
 }
 .banner_right_text{
 	float: right;
-	margin: 10px 5px auto 5px;
+	margin: 9px 5px auto 5px;
 	font-size: 18px;
 }
 #banner_right_pic_settings{
@@ -72,7 +72,7 @@ a{
 	height: 48px;
 	border-style: solid;
 	border-width: 0px;
-	background-image:url(../images/time.png); 
+	background-image:url(../img/time.png); 
 }
 #axis_begin_vertical{
 	width: 4px;
@@ -108,7 +108,7 @@ a{
 	width: 20px;
 	height:20px;
 	background: #f5f6f6;
-	background-image:url(../images/timeAxis.png); 
+	background-image:url(../img/timeAxis.png); 
 	z-index: 99;
 	left: 15px;
 	top: 0px;

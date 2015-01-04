@@ -1,7 +1,7 @@
-* {margin:0; padding:0; border:0;}
+﻿* {margin:0; padding:0; border:0;}
 body{ 
 	font-family:"宋体";
-	background-color: #f6f6f6;
+	background-color: #f5f6f6;
 	min-height: 700px;
 
 }
@@ -29,16 +29,16 @@ a{
 }
 .banner_left_text{ 
 	float: left;
-	margin: 11px 11px auto 11px;
-	font-size: 12px; 
+	margin: 9px 11px auto 11px;
+	font-size: 18px; 
 }
 .banner_a{
 	color: #FFFFFF; 
 }
 .banner_right_text{
 	float: right;
-	margin: 11px 5px auto 5px;
-	font-size: 12px;
+	margin: 9px 5px auto 5px;
+	font-size: 18px;
 }
 #banner_right_pic_settings{
 	float: right;
@@ -64,7 +64,8 @@ a{
 	background-color: white;
 }
 .usertable_pic{
-
+	width: 61px;
+	height: 61px;
 	float: left;
 	margin: 30px 20px 30px 20px;
 }
