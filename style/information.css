@@ -1,0 +1,154 @@
+* {margin:0; padding:0; border:0; }
+body{ 
+	font-family:"宋体";
+	background-color: #f5f6f6;
+	min-height: 700px;
+
+}
+#center { margin-left: auto; margin-right: auto; }
+a{
+	text-decoration: none;
+}
+#banner_background {
+	position: relative; 
+	background-image:url(../img/login_02.png); 
+	min-width: 1000px;
+	width: auto; 
+	height: 42px; 
+	margin:0px auto 0px auto;
+	background-size: 100% 100%;
+}
+#banner_box{
+	position: absolute;
+	left: 31px;
+	right: 31px;
+	width: auto;
+	border-style: solid;
+	border-width: 0px;
+}
+.banner_left_text{ 
+	float: left;
+	margin: 9px 11px auto 11px;
+	font-size: 18px; 
+}
+.banner_a{
+	color: #FFFFFF; 
+}
+.banner_right_text{
+	float: right;
+	margin: 9px 5px auto 5px;
+	font-size: 18px;
+}
+#banner_right_pic_settings{
+	float: right;
+	margin: 7px 5px auto 5px;
+}
+#banner_right_pic_email{
+	float: right;
+	margin: 10px 5px auto 5px;
+}
+#banner_right_pic_head{
+	float: right;
+	margin: 2px 5px auto 5px;
+}
+.list_big_box{
+	width: 100%;
+	min-width: 1000px;
+}
+.list_white_box{
+	width: 78%;
+	min-width: 780px;
+	overflow:hidden;
+	margin: 50px auto 0px auto;
+	background-color: white;
+}
+.user_information_box{
+	height: 180px;
+}
+#user_information_head_pic{
+	float: left;
+	margin: 40px 22px;
+}
+.user_information_text_box{
+	float: left;
+	margin: 40px 0 0 0 ;	
+}
+.user_information_text{
+	margin: 0 0 15px 0;
+	font-size: 20px;
+}
+#check_box{
+	float: left;
+	margin: 3px 10px 0 0;
+}
+.posting_list_box{
+	height: 170px;
+	border-style: solid;
+	border-width: 0px;
+}
+.list_title_box{
+	position: relative;
+	height: 30px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.list_title_text{
+	float: left;
+	margin: 0 0 0 22px;
+	font-size: 20px;
+	left: 22px;
+}
+.list_title_more{
+	float: left;
+	margin: 4px 0 0 18px;
+	top: 3px;
+	font-size: 16px;
+	color: #01B36B;
+}
+.list_content_box{
+	margin: 0 30px;
+	height: 50px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.list_content_text{
+	float: left;
+	margin: 20px 0 0 0;
+	font-size: 18px;
+}
+.list_content_date{
+	float: right;
+	margin: 20px 0 0 0;
+	font-size: 18px;
+}
+.knowledge_list_box{
+	height: 170px;
+	border-style: solid;
+	border-width: 0px;
+}
+.completed_task_list_box{
+	height: 170px;
+	border-style: solid;
+	border-width: 0px;
+}
+.subscription_list_box{
+	height: 170px;
+	border-style: solid;
+	border-width: 0px;
+} 
+.product_list_box{
+	height: 243px;
+	border-style: solid;
+	border-width: 0px;
+}
+.product_list{
+	height: 88px;
+	margin: 0 0 0 30px;
+}
+.product_list_head_pic{
+	float: left;
+	margin: 20px 0 0 0;
+}
+.product_list_text{
+	float: left;
+	font-size: 20px;
+	margin: 44px 0 0 10px;
+}
