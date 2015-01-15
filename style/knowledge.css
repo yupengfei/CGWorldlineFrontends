@@ -111,12 +111,101 @@ a{
 	background-color: white;
 	display:none;
 }
-.nav_pic{
-	float: right;
+#nav_sw1{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;	 
+}
+#nav_sw2{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;  
+}
+#nav_sw3{
+	float: left;
 	margin: 10px 12px 10px 12px;
 	width: 50px;
 	height: 50px;
 }
+#nav_sw4{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_sw5{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_sw6{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process1{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process2{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process3{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process4{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process5{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process6{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process7{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+#nav_process8{
+	float: left;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}
+
+.nav_select{
+	background: white; 
+	opacity: 0.5;
+}
+/*.nav_pic{
+	float: right;
+	margin: 10px 12px 10px 12px;
+	width: 50px;
+	height: 50px;
+}*/
 .usertable_big_box{
 	width: 100%;
 	min-width: 1000px;

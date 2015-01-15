@@ -7,13 +7,178 @@
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"> 
 		$(document).ready(function(){
-  			$("#nav_bt").mouseover(function(){
+  			/*$("#nav_bt").mouseover(function(){
     			$(this).next("#nav_pic_box").slideDown(500);
   			});
   		
   			$("#nav_box").mouseleave(function(){
     			$('#nav_pic_box').slideUp(500);
+  			});*/
+			$("#nav_bt").click(function(){
+    			$(this).next("#nav_pic_box").slideToggle(500);
   			});
+  			$("#nav_sw1").addClass("nav_select");
+  			$("#nav_sw2").addClass("nav_select");
+  			$("#nav_sw3").addClass("nav_select");
+			$("#nav_sw4").addClass("nav_select");
+  			$("#nav_sw5").addClass("nav_select");
+  			$("#nav_sw6").addClass("nav_select");
+
+  			$("#nav_process1").addClass("nav_select");
+			$("#nav_process2").addClass("nav_select");
+			$("#nav_process3").addClass("nav_select");
+			$("#nav_process4").addClass("nav_select");
+			$("#nav_process5").addClass("nav_select");
+			$("#nav_process6").addClass("nav_select");
+			$("#nav_process7").addClass("nav_select");
+			$("#nav_process8").addClass("nav_select");
+			
+			$("#nav_sw1").click(function(){
+				$("#nav_sw1").removeClass("nav_select");
+				$("#nav_sw2").addClass("nav_select");
+				$("#nav_sw3").addClass("nav_select");
+				$("#nav_sw4").addClass("nav_select");
+				$("#nav_sw5").addClass("nav_select");
+				$("#nav_sw6").addClass("nav_select");
+			});
+			$("#nav_sw2").click(function(){
+				$("#nav_sw2").removeClass("nav_select");
+				$("#nav_sw1").addClass("nav_select");
+				$("#nav_sw3").addClass("nav_select");
+				$("#nav_sw4").addClass("nav_select");
+				$("#nav_sw5").addClass("nav_select");
+				$("#nav_sw6").addClass("nav_select");
+			});
+			$("#nav_sw3").click(function(){
+				$("#nav_sw3").removeClass("nav_select");
+				$("#nav_sw1").addClass("nav_select");
+				$("#nav_sw2").addClass("nav_select");
+				$("#nav_sw4").addClass("nav_select");
+				$("#nav_sw5").addClass("nav_select");
+				$("#nav_sw6").addClass("nav_select");
+			});
+			$("#nav_sw4").click(function(){
+				$("#nav_sw4").removeClass("nav_select");
+				$("#nav_sw1").addClass("nav_select");
+				$("#nav_sw2").addClass("nav_select");
+				$("#nav_sw3").addClass("nav_select");
+				$("#nav_sw5").addClass("nav_select");
+				$("#nav_sw6").addClass("nav_select");
+			});
+			$("#nav_sw5").click(function(){
+				$("#nav_sw5").removeClass("nav_select");
+				$("#nav_sw1").addClass("nav_select");
+				$("#nav_sw2").addClass("nav_select");
+				$("#nav_sw3").addClass("nav_select");
+				$("#nav_sw4").addClass("nav_select");
+				$("#nav_sw6").addClass("nav_select");
+			});
+			$("#nav_sw6").click(function(){
+				$("#nav_sw6").removeClass("nav_select");
+				$("#nav_sw1").addClass("nav_select");
+				$("#nav_sw2").addClass("nav_select");
+				$("#nav_sw3").addClass("nav_select");
+				$("#nav_sw4").addClass("nav_select");
+				$("#nav_sw5").addClass("nav_select");
+			});
+			$("#nav_process1").click(function(){
+				$("#nav_process1").removeClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process2").click(function(){
+				$("#nav_process2").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process3").click(function(){
+				$("#nav_process3").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process4").click(function(){
+				$("#nav_process4").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process5").click(function(){
+				$("#nav_process5").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process6").click(function(){
+				$("#nav_process6").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process7").click(function(){
+				$("#nav_process7").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process8").addClass("nav_select");
+			});
+			$("#nav_process8").click(function(){
+				$("#nav_process8").removeClass("nav_select");
+				$("#nav_process1").addClass("nav_select");
+				$("#nav_process2").addClass("nav_select");
+				$("#nav_process3").addClass("nav_select");
+				$("#nav_process4").addClass("nav_select");
+				$("#nav_process5").addClass("nav_select");
+				$("#nav_process6").addClass("nav_select");
+				$("#nav_process7").addClass("nav_select");
+			});
+			/*$("#nav_pic1").click(function(){
+				$("#nav_pic1").toggleClass("nav_select");
+			});
+			$("#nav_pic2").click(function(){
+				$("#nav_pic2").toggleClass("nav_select");
+			});
+			$("#nav_pic3").click(function(){
+				$("#nav_pic3").toggleClass("nav_select");
+			});
+			$("#nav_pic4").click(function(){
+				$("#nav_pic4").toggleClass("nav_select");
+			});
+			$("#nav_pic5").click(function(){
+				$("#nav_pic5").toggleClass("nav_select");
+			});
+			$("#nav_pic6").click(function(){
+				$("#nav_pic6").toggleClass("nav_select");
+			});*/
 		});
 	</script>
 </head>
@@ -85,12 +250,54 @@
 		<div id="nav_box">
 			<img id="nav_bt"  src="img/knowledgeBase_05.png" />
 			<div id="nav_pic_box">
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
-				<img class="nav_pic" src="img/knowledgeBase_02.png" />
+				<div id="nav_sw1">
+					<p>Maya</p>
+				</div>
+				<div id="nav_sw2">
+					<p>3DMax</p>
+				</div>
+				<div id="nav_sw3">
+					<p>Houdini</p>
+				</div>
+				<div id="nav_sw4">
+					<p>Blender</p>
+				</div>
+				<div id="nav_sw5">
+					<p>Zbrush</p>
+				</div>
+				<div id="nav_sw6">
+					<p>Mari</p>
+				</div>
+				<div id="nav_process1">
+					<p>建模</p>
+				</div>
+				<div id="nav_process2">
+					<p>雕刻</p>
+				</div>
+				<div id="nav_process3">
+					<p>贴图</p>
+				</div>
+				<div id="nav_process4">
+					<p>绑定</p>
+				</div>
+				<div id="nav_process5">
+					<p>动画</p>
+				</div>
+				<div id="nav_process6">
+					<p>灯光</p>
+				</div>
+				<div id="nav_process7">
+					<p>特效</p>
+				</div>
+				<div id="nav_process8">
+					<p>合成</p>
+				</div>
+				<!-- <img id="nav_pic1" src="img/knowledgeBase_02.png" />
+				<img id="nav_pic2" src="img/knowledgeBase_02.png" />
+				<img id="nav_pic3" src="img/knowledgeBase_02.png" />
+				<img id="nav_pic4" src="img/knowledgeBase_02.png" />
+				<img id="nav_pic5" src="img/knowledgeBase_02.png" />
+				<img id="nav_pic6" src="img/knowledgeBase_02.png" />  -->
 			</div>
 		</div>
 	</div>
