@@ -101,7 +101,10 @@ a{
 	width: 40px;
 	height: 36px;
 }
-#nav_pic_box{
+#nav_small_box{
+	display:none;
+}
+#nav_small_box_one{
 	position: absolute;
 	top: 36px;
 	right: 0px;
@@ -109,7 +112,17 @@ a{
 	height: auto;
 	padding: 10px 0 0 0;
 	background-color: white;
-	display:none;
+	border: 1px solid black;
+}
+#nav_small_box_two{
+	position: absolute;
+	top: 186px;
+	right: 0px;
+	width: 222px;
+	height: auto;
+	padding: 10px 0 0 0;
+	background-color: white;
+	border: 1px solid black;
 }
 #nav_sw1{
 	float: left;
@@ -269,5 +282,11 @@ a{
 	border: 1px solid #bcbcbc;
 	background: white; 
 	font-size: 18;
+	cursor:pointer;
+}
+#nav_small_box_one div{
+	cursor:pointer;
+}
+#nav_small_box_two div{
 	cursor:pointer;
 }
